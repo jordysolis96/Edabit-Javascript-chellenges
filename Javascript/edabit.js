@@ -1,3 +1,4 @@
+console.log("Welcome to the edabit JavaScript exercises!")
 // Create a function that takes two numbers as arguments and return their sum
 function addition(a, b){
     return a + b;
@@ -11,3 +12,7 @@ function howManySeconds(hours) {
     return hours * 3600;
 }
 
+//write a funtion that converts minute into seconds
+function Connvert(Minutes) {
+    return minutes * 60;
+}
