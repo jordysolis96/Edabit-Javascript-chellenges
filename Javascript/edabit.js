@@ -41,3 +41,8 @@ function remainder(x, y) {
 function nextEdge(side1, side2) {
     return (side1 + side2) - 1
 }
+
+//Create a function that takes voltage and current and returns the calculated power.
+function circuitPower(voltage, current) {
+    return voltage * current;
+}
