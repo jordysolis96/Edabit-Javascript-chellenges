@@ -68,3 +68,8 @@ function lessThan100(a, b) {
 function giveMeSomething(a) {
     return "something " + a;
 }
+
+//This is an introduction to how challenges on Edabit work. In the Code tab above you'll see a starter function that looks like this:
+function hello() {
+    return "hello edabit.com"
+}
