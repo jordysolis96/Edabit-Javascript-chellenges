@@ -39,10 +39,15 @@ function remainder(x, y) {
 
 //Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
 function nextEdge(side1, side2) {
-    return (side1 + side2) - 1
+    return (side1 + side2) - 1;
 }
 
 //Create a function that takes voltage and current and returns the calculated power.
 function circuitPower(voltage, current) {
     return voltage * current;
+}
+
+//Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+function increment(num) {
+    return ++num;
 }
