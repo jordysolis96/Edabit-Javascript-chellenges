@@ -116,3 +116,10 @@ function isEmpty(s) {
         return false;
     }
 }
+
+//Create a function that takes a number as an argument and returns negative of that number. Return negative numbers without any change.
+function returnNegative(n) {
+    if(n){
+        return -n;
+    }
+}
