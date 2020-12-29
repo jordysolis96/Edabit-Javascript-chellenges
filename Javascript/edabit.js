@@ -134,3 +134,22 @@ function changeEnough(change, amountDue) {
 function findPerimeter(length, width) {
     return (length * 2) + (width * 2);
 }
+
+//Write a function that returns the number of users in a chatroom based on the following rules:
+//
+// 1. If there is no one, return "no one online".
+// 2. If there is 1 person, return "user1 online".
+// 3. If there are 2 people, return "user1 and user2 online".
+// 4. If there are n>2 people, return the first two names and add "and n-2 more online"
+
+function chatroomStatus(users) {
+    if ([]){
+        return "no one online";
+    } else if ([""]) {
+        return "user1 online"
+    } else if (["", ""]){
+        return "user1 and user2 online"
+    } else if ([]){
+        return "error";
+    }
+}
