@@ -97,3 +97,8 @@ function triArea(base, height) {
 function animals(chickens, cows, pigs) {
     return ((chickens * 2) * (cows * 4) * (pigs * 2));
 }
+
+//Given two strings, firstName and lastName, return a single string in the format "last, first".
+function concatName(firstName, lastName) {
+    return lastName + ", " + firstName;
+}
