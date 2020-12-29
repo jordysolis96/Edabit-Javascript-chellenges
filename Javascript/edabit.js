@@ -107,3 +107,12 @@ function concatName(firstName, lastName) {
 function cubes(a) {
     return a * 3
 }
+
+//Create a function that returns True if a string is empty and False otherwise
+function isEmpty(s) {
+    if(s === ""){
+        return true;
+    } else {
+        return false;
+    }
+}
