@@ -20,7 +20,7 @@ function Connvert(Minutes) {
 //Create a function that takes an array containing only numbers and return the first element
 function getFirstValue(arry){
    var randomArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    console.log(ra)
+    return randomArr[0];
 }
 
 //Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false
