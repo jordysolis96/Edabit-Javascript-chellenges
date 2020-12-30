@@ -163,3 +163,10 @@ function chatroomStatus(users) {
 function emotify(str) {
     return str.replace('smile',":D").replace('grin',':)').replace('sad',':(').replace('mad',':P');
 }
+
+//Given an object containing counts of both upvotes and downvotes, return what vote count should be displayed. This is calculated by subtracting the number of downvotes from upvotes.
+function getVoteCount(votes) {
+    let x=votes.downvotes;
+    let y=votes.upvotes;
+    return y-x;
+}
