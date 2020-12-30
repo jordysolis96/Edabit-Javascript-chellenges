@@ -153,3 +153,13 @@ function chatroomStatus(users) {
         return "error";
     }
 }
+
+//Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticons.
+//smile = :D
+//grin :)
+//sad :(
+//mad :P
+
+function emotify(str) {
+    return str.replace('smile',":D").replace('grin',':)').replace('sad',':(').replace('mad',':P');
+}
