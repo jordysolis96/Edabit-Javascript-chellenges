@@ -170,3 +170,8 @@ function getVoteCount(votes) {
     let y=votes.upvotes;
     return y-x;
 }
+
+//Create a function that takes a list of numbers and returns the second largest number.
+function secondLargest(arr) {
+    return arr.sort((a,b) => +a - +b )[arr.length-2]
+}
