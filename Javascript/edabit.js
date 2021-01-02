@@ -206,3 +206,8 @@ function makesTen(a, b) {
 function sortByLength(arr) {
     return arr.sort((a, b) => a.length - b.length);
 }
+
+//Given a sentence as str, return true if any two adjacent words have this property: One word ends with a vowel, while the word immediately after begins with a vowel (a e i o u).
+function vowelLinks(str) {
+    return /[aeiou] [aeiou]/.test(str)
+}
