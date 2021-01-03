@@ -211,3 +211,8 @@ function sortByLength(arr) {
 function vowelLinks(str) {
     return /[aeiou] [aeiou]/.test(str)
 }
+
+//Write a function that retrieves the top 3 longest words of a newspaper headline and transforms them into hashtags. If multiple words tie for the same length, retrieve the word that occurs first.
+function getHashTags(str) {
+    return str.split(' ').sort((a, b) => b.length - a.length).slice(0, 3).map(c => '#' + c.replace(/\W/, '').toLowerCase());
+}
