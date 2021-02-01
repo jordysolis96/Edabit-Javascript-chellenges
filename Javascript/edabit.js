@@ -226,3 +226,8 @@ function newWord(str) {
 function AlphabetSoup(str) {
     return str.split('').sort().join('');
 }
+
+//Write a function that removes any non-letters from a string, returning a well-known film title.
+function lettersOnly(str) {
+    return str.replace(/[^a-z]/gi, '');
+}
