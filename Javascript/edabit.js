@@ -221,3 +221,8 @@ function getHashTags(str) {
 function newWord(str) {
     return str.slice(1);
 }
+
+//create a function that takes a string and returns a string with its letters in alphabetical order
+function AlphabetSoup(str) {
+    return str.split('').sort().join('');
+}
