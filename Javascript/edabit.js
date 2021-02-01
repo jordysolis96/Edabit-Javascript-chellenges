@@ -236,3 +236,8 @@ function lettersOnly(str) {
 function sortDescending(num) {
     return parseInt(num.toString().split('').sort().reverse().join(''));
 }
+
+//Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
+function reverseCase(str) {
+    return [...str].map(c => c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()).join("")
+}
