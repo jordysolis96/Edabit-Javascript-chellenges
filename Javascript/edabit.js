@@ -239,5 +239,17 @@ function sortDescending(num) {
 
 //Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
 function reverseCase(str) {
-    return [...str].map(c => c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()).join("")
+    return [...str].map(c => c.toLowerCase() === c ? c.toUpperCase() : c.toLowerCase()).join("")
 }
+
+    for(var i = 0; i <= 100; i++){
+        if(i % 3 === 0 && i % 5 === 0){
+            console.log("FizzBuzz")
+        }else if(i % 5 === 0){
+            console.log("Buzz")
+        }else if(i % 3 === 0 ){
+            console.log("FizzBuzz")
+        }else{
+            console.log(i)
+        }
+    }
