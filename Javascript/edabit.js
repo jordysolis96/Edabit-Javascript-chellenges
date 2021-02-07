@@ -242,14 +242,44 @@ function reverseCase(str) {
     return [...str].map(c => c.toLowerCase() === c ? c.toUpperCase() : c.toLowerCase()).join("")
 }
 
-    for(var i = 0; i <= 100; i++){
-        if(i % 3 === 0 && i % 5 === 0){
-            console.log("FizzBuzz")
-        }else if(i % 5 === 0){
-            console.log("Buzz")
-        }else if(i % 3 === 0 ){
-            console.log("FizzBuzz")
-        }else{
-            console.log(i)
-        }
+//     for(var i = 0; i <= 100; i++){
+//         if(i % 3 === 0 && i % 5 === 0){
+//             console.log("FizzBuzz")
+//         }else if(i % 5 === 0){
+//             console.log("Buzz")
+//         }else if(i % 3 === 0 ){
+//             console.log("FizzBuzz")
+//         }else{
+//             console.log(i)
+//         }
+//     }
+//
+// for(var i = 0; i <= 100; i++){
+//     switch (true){
+//         case (i % 5 === 0 && i % 3 === 0):
+//             console.log("FizzBuzz");
+//             break;
+//
+//         case (i % 5 === 0):
+//             console.log("Buzz");
+//             break;
+//
+//         case (i % 3 === 0):
+//             console.log("Fizz");
+//             break;
+//
+//         default:
+//             console.log(i);
+//             break;
+//         }
+// }
+
+
+//Write a function that takes a credit card number and only displays the last four characters. The rest of the card number must be replaced by ************.
+function creditCard(card){
+    card = card.split('');
+    for (let i = 0; card.length - 4; i++){
+        card[i] = "*"
     }
+    return card.join('');
+}
